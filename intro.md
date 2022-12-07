@@ -1,11 +1,11 @@
-# Welcome to your Jupyter Book
+# Introduction
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+We have looked at the Vancouver Trees in the first part of this course, Programming in Python for Data Science. It interested me to know which trees were being planted in this initiative. Some of the questions that I will cover are:
 
-Check out the content pages bundled with this sample book to see more.
+1.    Which trees were the most popular to plant?
+2.    What are the trends in the planting of the trees?
+3.    Where were the trees planted?
+4.    What were their height?
+5.    What were their diameter?
 
-```{tableofcontents}
-```
+
