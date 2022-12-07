@@ -7,4 +7,12 @@ parts:
 - caption: Data Analysis
   chapters:
   - file: doc/eda.ipynb
+- caption: Findings
+  chapters:
+    sections: doc/exploratory_data_analysis
+    - file: doc/popular_trees.md
+    - file: doc/trends.md
+    - file: doc/location.md
+    - file: doc/heigt_diameter.md
+
  
