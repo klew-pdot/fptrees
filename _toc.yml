@@ -4,9 +4,7 @@
 format: jb-book
 root: intro
 parts:
-- caption: Analysis
+- caption: Data Analysis
   chapters:
-  - file: markdown
-  - file: notebooks
-  - file: markdown-notebooks
-  - file: test
+  - file: doc/eda.ipynb
+ 
