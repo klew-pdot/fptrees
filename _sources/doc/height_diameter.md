@@ -7,6 +7,9 @@ As for the diameter of the trees, there seems to be 3 distinct lines of tree gro
 ```{margin} Did you know?
 The average height of trees is 2.6 ft tall and the average diameter is 11.6 ft!
 ```
+```python
+street_trees_df.loc[:,('HEIGHT_RANGE_ID', 'DIAMETER')].describe()
+```
 I used the following equation to determine the average height and diameter of the planted trees.
 
 $$
