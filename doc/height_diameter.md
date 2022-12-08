@@ -22,7 +22,7 @@ $$
 ---
 
 width: 578px
-name: height_and_diameter
+name: height
 ---
 The height of planted trees.
 ```
@@ -30,8 +30,8 @@ The height of planted trees.
 ```{figure} https://github.com/klew-pdot/fptrees/blob/main/images/diameter.png?raw=true
 ---
 
-width: 1578px
-name: height_and_diameter
+width: 578px
+name: diameter
 ---
 The diameter of planted trees.
 ```
