@@ -1,14 +1,14 @@
 # Which trees were the most popular to plant?
 
-After exploring the data, I have been able to determine the total number of trees planted and by type.
+After exploring the data, I have been able to determine the total number of trees planted and by type when I run the code below.
+
+```{margin} Did you know?
+There have been 66,770 trees planted!
+```
 
 ```python
 x = sum(trees_df.groupby(['TREE_TYPE'])['TREE_TYPE'].count())
 print(x)
-```
-
-```{margin} Did you know?
-There have been 66,770 trees planted!
 ```
 
 ```{note}

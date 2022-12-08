@@ -339,15 +339,15 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="which-trees-were-the-most-popular-to-plant">
 <h1>Which trees were the most popular to plant?<a class="headerlink" href="#which-trees-were-the-most-popular-to-plant" title="Permalink to this headline">#</a></h1>
-<p>After exploring the data, I have been able to determine the total number of trees planted and by type.</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">trees_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;TREE_TYPE&#39;</span><span class="p">])[</span><span class="s1">&#39;TREE_TYPE&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">())</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
-</pre></div>
-</div>
+<p>After exploring the data, I have been able to determine the total number of trees planted and by type when I run the code below.</p>
 <aside class="margin sidebar">
 <p class="sidebar-title">Did you know?</p>
 <p>There have been 66,770 trees planted!</p>
 </aside>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">trees_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;TREE_TYPE&#39;</span><span class="p">])[</span><span class="s1">&#39;TREE_TYPE&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>This value may change as the data source is updated.</p>
