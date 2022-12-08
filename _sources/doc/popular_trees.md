@@ -6,11 +6,15 @@ After exploring the data, I have been able to determine the total number of tree
 x = sum(trees_df.groupby(['TREE_TYPE'])['TREE_TYPE'].count())
 print(x)
 ```
-Running this previous code will result in answer of 66,770 trees planted.
+
+```{margin} Did you know?
+There have been 66,770 trees planted!
+```
 
 ```{note}
 This value may change as the data source is updated.
 ```
+
 
 The code above may be confusing, but it is essentially counting how many trees in each tree type and then summing those counts.  Below is a simple mathematical formula to display to mechanics of it.
 
