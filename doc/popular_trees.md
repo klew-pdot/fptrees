@@ -15,7 +15,6 @@ print(x)
 This value may change as the data source is updated.
 ```
 
-
 The code above may be confusing, but it is essentially counting how many trees in each tree type and then summing those counts.  Below is a simple mathematical formula to display to mechanics of it.
 
 $$
@@ -23,7 +22,6 @@ $$
 $$
 
 Below is the breakdown of the trees in graphical format.
-
 
 ```{figure} https://github.com/klew-pdot/fptrees/blob/main/images/number_of_trees_planted_by_type.png?raw=true
 ---
