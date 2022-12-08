@@ -10,9 +10,13 @@ parts:
 - caption: Findings
   chapters:
   - file: doc/popular_trees.md
-  - file: doc/trends.ipynb
+  - file: doc/trends.md
   - file: doc/location.md
   - file: doc/height_diameter.md
+  - file: doc/dashboard.ipynb
+  - file: doc/discussion.md
+  - file: doc/references.md
+ 
  
 
  
