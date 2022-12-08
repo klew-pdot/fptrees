@@ -5,7 +5,7 @@ City of Vancouver (December 8, 2022).  Street Trees - City of Vancouver.  https:
 
 Overleaf (December 8, 2022).  Mathematical expressions.  https://www.overleaf.com/learn/latex/Mathematical_expressions
 
-Github UBC_MDS (December 8, 2022).  Exploratory Data Viz.  https://raw.githubusercontent.com/UBC-MDS/exploratory-data-viz/main/data/street_trees.csv
+Github UBC_MDS (Oct 13, 2021).  Exploratory Data Viz.  https://raw.githubusercontent.com/UBC-MDS/exploratory-data-viz/main/data/street_trees.csv
 
 University of British Columbia (December 8, 2022) The Data Science Toolbox. https://toolbox-learn.mds.ubc.ca/
 
