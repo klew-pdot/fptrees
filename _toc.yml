@@ -12,7 +12,7 @@ parts:
   - file: doc/popular_trees.md
   - file: doc/trends.ipynb
   - file: doc/location.md
-  - file: doc/heigt.md
-  - file: doc/diameter.md
+  - file: doc/height_diameter.md
+ 
 
  
