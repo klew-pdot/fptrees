@@ -1,4 +1,4 @@
-# Which trees were teh most popular to plant?
+# Which trees were the most popular to plant?
 
 ```{figure} images/number_of_trees_planted_by_type.png
 ---
