@@ -18,7 +18,7 @@ $$
 ```{figure} https://github.com/klew-pdot/fptrees/blob/main/images/height_diameter.png?raw=true
 ---
 height: 480px
-width: 1216px
+width: 1600px
 name: height_and_diameter
 ---
 The height and diameter of planted trees.
