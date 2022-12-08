@@ -9,6 +9,7 @@ The average height of trees is 2.6 ft tall and the average diameter is 11.6 ft!
 ```python
 street_trees_df.loc[:,('HEIGHT_RANGE_ID', 'DIAMETER')].describe()
 ```
+
 I used the following equation to determine the average height and diameter of the planted trees.
 
 $$
@@ -17,7 +18,7 @@ $$
 
 ```{figure} https://github.com/klew-pdot/fptrees/blob/main/images/height_diameter.png?raw=true
 ---
-height: 480px
+
 width: 1600px
 name: height_and_diameter
 ---
