@@ -1,2 +1,0 @@
-# What were their diameter?
-
