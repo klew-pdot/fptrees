@@ -1,3 +1,4 @@
+(popular_label)=
 # Which trees were the most popular to plant?
 
 After exploring the data, I have been able to determine the total number of trees planted and by type when I run the code below.
@@ -17,9 +18,13 @@ This value may change as the data source is updated.
 
 The code above may be confusing, but it is essentially counting how many trees in each tree type and then summing those counts.  Below is a simple mathematical formula to display to mechanics of it.
 
+```{math}
+:label: eq_sum
+```
 $$
 \sum_{i=1}^n x_i = x_{maple} + x_{cherry} + x_{plum} + x_{other}
 $$
+
 
 Below is the breakdown of the trees in graphical format.
 
