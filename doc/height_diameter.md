@@ -16,11 +16,20 @@ $$
 \bar{x}=\frac{x_1 + x_2 ... + x_n}{n}=\frac{1}{n}\Bigg( \sum_{i=1}^{n} x_i \Bigg)
 $$
 
-```{figure} https://github.com/klew-pdot/fptrees/blob/main/images/height_diameter.png?raw=true
+```{figure} https://github.com/klew-pdot/fptrees/blob/main/images/height.png?raw=true
 ---
 
-width: 1600px
+width: 578px
 name: height_and_diameter
 ---
-The height and diameter of planted trees.
+The height of planted trees.
+```
+
+```{figure} https://github.com/klew-pdot/fptrees/blob/main/images/diameter.png?raw=true
+---
+
+width: 1578px
+name: height_and_diameter
+---
+The diameter of planted trees.
 ```
