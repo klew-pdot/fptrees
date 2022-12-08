@@ -1,1 +1,0 @@
-# What are the trends in the planting of the trees?
