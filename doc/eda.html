@@ -50,6 +50,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Which trees were the most popular to plant?" href="popular_trees.html" />
@@ -829,6 +831,10 @@ memory usage: 5.1+ MB
 </div>
 <p>The initial table, street_trees_df shows the complete github dataset.  For this analysis, I will be using a select number of columns from this table and I have created 2 new columns.  YEAR_PLANTED to isolate the year as well as the TREE_TYPE which is the simple name like maple or cherry tree.</p>
 <p>You will notice that the there are some missing data for in the DATE_PLANTED and the newly created YEAR_PLANTED.  These records will be removed during the analysis that include time.</p>
+<div class="math notranslate nohighlight">
+\[
+\sum_{i=1}^n x_i = x_{maple} + x_cherry + x_plum + x_other
+\]</div>
 </section>
 </section>
 

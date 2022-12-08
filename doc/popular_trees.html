@@ -50,6 +50,8 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="What are the trends in the planting of the trees?" href="trends.html" />
@@ -337,6 +339,22 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="which-trees-were-the-most-popular-to-plant">
 <h1>Which trees were the most popular to plant?<a class="headerlink" href="#which-trees-were-the-most-popular-to-plant" title="Permalink to this headline">#</a></h1>
+<p>After exploring the data, I have been able to determine the total number of trees planted and by type.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">trees_df</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;TREE_TYPE&#39;</span><span class="p">])[</span><span class="s1">&#39;TREE_TYPE&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">())</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Running this previous code will result in answer of 66,770 trees planted.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This value may change as the data source is updated.</p>
+</div>
+<p>The code above may be confusing, but it is essentially counting how many trees in each tree type and then summing those counts.  Below is a simple mathematical formula to display to mechanics of it.</p>
+<div class="math notranslate nohighlight">
+\[
+\sum_{i=1}^n x_i = x_{maple} + x_{cherry} + x_{plum} + x_{other}
+\]</div>
+<p>Below is the breakdown of the trees in graphical format.</p>
 <figure class="align-default" id="number-of-trees-planted-by-type">
 <a class="reference internal image-reference" href="https://github.com/klew-pdot/fptrees/blob/main/images/number_of_trees_planted_by_type.png?raw=true"><img alt="https://github.com/klew-pdot/fptrees/blob/main/images/number_of_trees_planted_by_type.png?raw=true" src="https://github.com/klew-pdot/fptrees/blob/main/images/number_of_trees_planted_by_type.png?raw=true" style="width: 735px; height: 139px;" /></a>
 <figcaption>
