@@ -10,7 +10,7 @@ parts:
 - caption: Findings
   chapters:
   - file: doc/popular_trees.md
-  - file: doc/trends.md
+  - file: doc/trends.ipynb
   - file: doc/location.md
   - file: doc/heigt.md
   - file: doc/diameter.md
