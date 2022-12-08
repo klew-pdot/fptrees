@@ -335,7 +335,10 @@ title="Print to PDF"
 <h1>What were their heights and diameters?<a class="headerlink" href="#what-were-their-heights-and-diameters" title="Permalink to this headline">#</a></h1>
 <p>As we can see by the graph for height, the majority of trees planted are within the 10’-40’ range. However, the bulk of the trees being maple extend out to 80’. This could be based on when the trees were planted. Older ones would have a longer period to grow compared to newly planted trees.</p>
 <p>As for the diameter of the trees, there seems to be 3 distinct lines of tree groupings. They seem to be primarily cherry and maple trees with a few plum indicators added in. There does seem to be a crowding between the 10” and 30” diameters, but remember that these are indicators only and not full counts. Each mark could consist of 1 or more trees in the count. Like the height of the trees, the diameter of the trees could be due to a longer growth period since being planted compared to newly planted trees.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <p>The average height of trees is 2.6 ft tall and the average diameter is 11.6 ft!</p>
+</div>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">street_trees_df</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,(</span><span class="s1">&#39;HEIGHT_RANGE_ID&#39;</span><span class="p">,</span> <span class="s1">&#39;DIAMETER&#39;</span><span class="p">)]</span><span class="o">.</span><span class="n">describe</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -344,10 +347,16 @@ title="Print to PDF"
 \[
 \bar{x}=\frac{x_1 + x_2 ... + x_n}{n}=\frac{1}{n}\Bigg( \sum_{i=1}^{n} x_i \Bigg)
 \]</div>
-<figure class="align-default" id="height-and-diameter">
-<a class="reference internal image-reference" href="https://github.com/klew-pdot/fptrees/blob/main/images/height_diameter.png?raw=true"><img alt="https://github.com/klew-pdot/fptrees/blob/main/images/height_diameter.png?raw=true" src="https://github.com/klew-pdot/fptrees/blob/main/images/height_diameter.png?raw=true" style="width: 1600px; height: 480px;" /></a>
+<figure class="align-default" id="height">
+<a class="reference internal image-reference" href="https://github.com/klew-pdot/fptrees/blob/main/images/height.png?raw=true"><img alt="https://github.com/klew-pdot/fptrees/blob/main/images/height.png?raw=true" src="https://github.com/klew-pdot/fptrees/blob/main/images/height.png?raw=true" style="width: 578px;" /></a>
 <figcaption>
-<p><span class="caption-number">Fig. 3 </span><span class="caption-text">The height and diameter of planted trees.</span><a class="headerlink" href="#height-and-diameter" title="Permalink to this image">#</a></p>
+<p><span class="caption-number">Fig. 3 </span><span class="caption-text">The height of planted trees.</span><a class="headerlink" href="#height" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+<figure class="align-default" id="diameter">
+<a class="reference internal image-reference" href="https://github.com/klew-pdot/fptrees/blob/main/images/diameter.png?raw=true"><img alt="https://github.com/klew-pdot/fptrees/blob/main/images/diameter.png?raw=true" src="https://github.com/klew-pdot/fptrees/blob/main/images/diameter.png?raw=true" style="width: 578px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 4 </span><span class="caption-text">The diameter of planted trees.</span><a class="headerlink" href="#diameter" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </section>
